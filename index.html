@@ -10,7 +10,7 @@
 <body>
     <fieldset>
     <legend style="text-align: center; font-size: 30pt;" class="legend">Halaman Login</legend>
-    <form method="post" style="text-align: center; font-style: italic;" >
+    <form action="page.html" method="post" style="text-align: center; font-style: italic;" >
         <div class="container">
           <label for="uname" style="font-size: 30px;"><b>Username</b></label><br><br>
           <input type="text" placeholder="Enter Username" name="uname" required>
@@ -19,7 +19,7 @@
           <input type="password" placeholder="Enter Password" name="psw" required pattern="[A-Z]{2}[a-z]{3}[0-9]{2}" title="huruf besar 2 huruf kecil 6 angka 2">
           <br><br>
             <input type="checkbox" checked="checked" name="remember"> Remember Me
-            <a href="page.html"><button>Login</button></a>
+            <button type="submit">Login</button>
             <button type="reset" class="cancelbtn">Reset</button>
             <br><br>
             <span class="psw"><a href="#">Forgot password?</a></span>
